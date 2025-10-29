@@ -1,5 +1,8 @@
 /*.ipynb_checkpoints*/
 .ipynb_checkpoints/
 .ipynb_checkpoints
+<<<<<<< HEAD
 Mod6/data/2023_Yellow_Taxi_Trip_Data_20251015.csv
 .DS_Store
+=======
+>>>>>>> upstream/main
