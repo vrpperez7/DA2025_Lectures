@@ -8,10 +8,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-# !) load & clean
+# 1) load & clean
 penguins = sns.load_dataset("penguins")
 cols = ["bill_length_mm", "flipper_length_mm", "species"]
-df = penguins(cols).dropna()
+df = penguins[cols].dropna()
 
 X = df[["bill_length_mm", "flipper_length_mm"]]
 y = df['species']
